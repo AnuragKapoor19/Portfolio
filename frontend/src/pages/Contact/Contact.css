@@ -1,0 +1,163 @@
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 30px 10rem;
+    flex-direction: column;
+}
+
+.c-heading{
+    text-align: center;
+}
+
+.c-heading h2{
+    font-weight: bolder;
+    color: #89023E;
+    text-align: center;
+}
+
+.contact-card{
+    box-shadow: 0px 4px 8px 0px #757575;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 20px;
+}
+
+.card1 img{
+    width: 30vw;
+    height: 26rem;
+}
+
+.card2{
+    margin:0 10px 0 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.c-links{
+    display: flex;
+    gap:3px;
+}
+
+.c-links a{
+    text-decoration: none;
+}
+
+#git{
+    color: black;
+}
+
+#git:hover{
+    color: rgba(0, 0, 0, 0.375);
+}
+
+#insta{
+    color: #962fbf;
+}
+
+#insta:hover{
+    color: rgba(150, 47, 191, 0.375);
+}
+
+#linkedin{
+    color: rgb(0, 119, 181);
+}
+
+#linkedin:hover{
+    color: rgba(0, 119, 181, 0.375);
+}
+
+#whatsapp{
+    color: rgb(7, 94, 84);
+}
+
+#whatsapp:hover{
+    color: rgb(7, 94, 84, 0.375);
+}
+
+.card2 h4{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 10px;
+}
+
+.input-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.input-list input,textarea{
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.input-list input:hover,textarea:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.or{
+    font-weight: bolder;
+    margin-bottom: 1.5rem;
+}
+
+.input-list textarea{
+    height: 8rem;
+    resize: none;
+    padding: 5px;
+}
+
+.lines{
+    display: flex;
+    gap: 20px;
+}
+
+/* Mobile View */
+@media screen and (max-width:600px){
+    .contact-container{
+        margin-left: 0;
+        padding: 0;
+    }
+    .contact-card{
+        width: 90vw;
+    }
+
+    .card1{
+        display: none;
+    }
+
+    .card2{
+        width: 70vw;
+        margin: 0;
+    }
+}
+
+/* Dark Mode */
+#dark #git{
+    color: white;
+}
+
+#dark #git:hover{
+    color: rgba(255, 255, 255, 0.375);
+}
+
+#dark .c-heading h2{
+    color: #63ADF2;
+}
+
+#dark .input-list input,#dark textarea{
+    background-color: rgba(0, 0, 0, 0.664);
+    color: white;
+}
+
+#dark .input-list input:hover,#dark textarea:hover{
+    box-shadow: rgba(99, 173, 242, 0.4) 0px 0px 0px 2px, rgba(99, 173, 242, 0.65) 0px 4px 6px -1px, rgba(99, 173, 242, 0.08) 0px 1px 0px inset;
+}

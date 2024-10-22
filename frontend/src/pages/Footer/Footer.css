@@ -1,0 +1,36 @@
+.footer-container{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer{
+    margin-left: 10rem;
+}
+
+#line1{
+    font-size: larger;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#line2{
+    font-size: large;
+    font-style: italic;
+}
+
+/* Mobile View */
+@media screen and (max-width:600px){
+    .footer{
+        margin: 0;
+    }
+
+    #line1{
+        font-size: large;
+    }
+
+    #line2{
+        font-size: medium;
+    }
+}

@@ -1,0 +1,37 @@
+.exp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 0 30px 10rem;
+}
+
+.exp-list{
+    background-color: #A0CED9;
+    border-radius: 20px;
+}
+
+.exp h2{
+    font-weight: bolder;
+    color: #89023E;
+    text-align: center;
+}
+
+
+@media screen and (max-width:600px){
+    .exp-container{
+        margin: 0;
+        padding: 0;
+        width: 90vw;
+        margin-left: 1.5rem;
+    }
+}
+
+/* Dark Mode */
+#dark .exp h2{
+    color: #63ADF2;
+}
+
+#dark .exp-list{
+    background-color: #0e103d52;
+}

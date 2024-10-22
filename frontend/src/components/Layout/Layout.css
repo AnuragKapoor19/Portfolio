@@ -1,0 +1,52 @@
+.sidebar-section{
+    display: flex;
+    background-color: #FFE066;
+}
+
+.sidebar{
+height: 100vh;
+background-color: #89023E;
+width: 90px;
+transition: 0.5s linear;
+position: fixed;
+left: 0;
+z-index: 2;
+}
+
+.sidebar-toggle{
+    width: 200px;
+}
+
+.sidebar-toggle-icons{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    cursor: pointer;
+}
+
+.sidebar-toggle-icons svg{
+    color: white;
+    margin-top: 30px;
+}
+
+.container1{
+    text-align: center;
+    width: 100%;
+    margin-left: 13rem;
+}
+
+/* Mobile View */
+@media screen and (max-width: 600px) {
+    .sidebar{
+        display: none;
+    }
+
+    .container1{
+        margin: 0;
+    }
+}
+
+/* Dark Mode */
+#dark .sidebar-section{
+    background-color: black;
+}

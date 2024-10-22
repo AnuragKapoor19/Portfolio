@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Matemasie&display=swap');
+
+.home-container{
+    height: 300px;
+    color: white;
+    /* margin-left: 5rem; */
+    /* padding-left: 5rem; */
+}
+
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    margin-top: 20px;
+    text-align: center;
+    position: fixed;
+    cursor: pointer;
+    z-index: 1;
+    right: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.home-content h2{
+    padding: 80px 10px 10px 0;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home-content h2 span{
+    font-size: larger;
+    font-weight: bolder;
+    color: #89023E;
+}
+
+.home-content h1{
+    color: #89023E;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+
+.home-buttons{
+    margin-top: 30px;
+}
+
+.btn-hire{
+    background-color: #F25F5C;
+    color: white;
+    width: 160px;
+    transition: 0.5s linear;
+    font-weight: bolder;
+}
+
+.btn-hire:hover{
+    background-color: white;
+    color: #F25F5C;
+    width: 200px;
+}
+
+.btn-cv{
+    background-color: #89023E;
+    color: white;
+    width: 160px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+
+.btn-cv:hover{
+    border: 2px solid #89023E;
+    color: #89023E;
+}
+
+/* Mobile View */
+@media screen and (max-width:600px) {
+    .home-container{
+        margin: 0;
+        padding: 0;
+    }
+
+    .home-content{
+        padding-top: 20px;
+    }
+
+    .btn-hire{
+        width: 120px;
+    }
+
+    .btn-cv{
+        width: 120px;
+    }
+
+    .btn-hire:hover{
+        width: 150px;
+    }
+
+    .theme-btn{
+        margin: 0;
+        margin-top: 10px;
+        background-color: transparent;
+        height: 40px;
+        width: 40px;
+        margin-right: 2vw;
+    }
+}
+
+@media screen and (max-width:1200px)and (min-width:600px){
+    .home-container{
+        text-align: center;
+    }
+}
+
+/* Dark Mode */
+#dark .home-content span,h1{
+    color: #FFFD82;
+}

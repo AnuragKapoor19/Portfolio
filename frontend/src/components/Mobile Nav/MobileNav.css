@@ -1,0 +1,37 @@
+.m-nav{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    color: white;
+}
+
+.m-nav-header{
+    background-color: black;
+    padding: 5px 10px;
+}
+
+.nav-title{
+    font-size: 30px;
+}
+
+.m-icons .icon{
+    cursor: pointer;
+}
+
+.m-nav .nav-items{
+    height: auto;
+    background-color: black;
+    width: 200px;
+    padding:0.5px 10px 35px 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (min-width:600px){
+    .m-nav{
+        display: none;
+    }
+}
