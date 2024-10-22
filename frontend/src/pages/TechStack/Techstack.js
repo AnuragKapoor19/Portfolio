@@ -17,7 +17,7 @@ export default function Techstack() {
                 </Fade>
                 <div className="techlist">
                     {Techicons.map(tech => (
-                        <Zoom>
+                        <Zoom key={tech._id}>
                             <div className="card tech" key={tech._id}>
                                 <i className='icon'>{tech.icon}</i>
                                 <h2>{tech.name}</h2>
