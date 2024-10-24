@@ -96,6 +96,20 @@
     background-color: white;
 }
 
+#ad3-btn .btn{
+    width: 40%;
+}
+
+#live{
+    margin-left: 10px;
+}
+
+#live:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}
+
 @media screen and (max-width:600px){
     .project-container{
         margin: 0;
@@ -107,6 +121,15 @@
     }
     .project-card{
         width: 70vw;
+    }
+
+    #ad3-btn .btn{
+        width: 45%;
+        padding: 5px;
+    }
+
+    #live{
+        margin-left: 1px;
     }
 }
 
