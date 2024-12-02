@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3fe18bfb.css",
-    "main.js": "/Portfolio/static/js/main.7f7a8575.js",
+    "main.css": "/Portfolio/static/css/main.1c69b18f.css",
+    "main.js": "/Portfolio/static/js/main.38066e22.js",
     "static/js/453.d855a71b.chunk.js": "/Portfolio/static/js/453.d855a71b.chunk.js",
+    "static/media/Wine.jpg": "/Portfolio/static/media/Wine.2e824bc40e51cfb3b9ce.jpg",
     "static/media/news1.jpg": "/Portfolio/static/media/news1.8bff50bfe2771b085aca.jpg",
     "static/media/food3.jpg": "/Portfolio/static/media/food3.d55c0df808a6825bb79d.jpg",
     "static/media/news3.jpg": "/Portfolio/static/media/news3.d2110e1c2ae352c36b3c.jpg",
@@ -12,13 +13,12 @@
     "static/media/food2.jpg": "/Portfolio/static/media/food2.746f1865cbce84d31f31.jpg",
     "static/media/Resume.jpg": "/Portfolio/static/media/Resume.9935782ec55328b12444.jpg",
     "static/media/food4.jpg": "/Portfolio/static/media/food4.1dd79a15ab7442ce84d2.jpg",
+    "static/media/Side.jpg": "/Portfolio/static/media/Side.5792157517cc5b656d22.jpg",
     "static/media/food6.jpg": "/Portfolio/static/media/food6.7e456b30f0ca99e123bc.jpg",
-    "static/media/Image1.jpg": "/Portfolio/static/media/Image1.e35ab1d5351cf4cb05ea.jpg",
     "static/media/food7.jpg": "/Portfolio/static/media/food7.699a8495c52e261ce604.jpg",
     "static/media/chat8.jpeg": "/Portfolio/static/media/chat8.84adf9f9af21c22e6487.jpeg",
     "static/media/chat7.jpeg": "/Portfolio/static/media/chat7.62255d7ecb4c2938123b.jpeg",
     "static/media/chat1.jpeg": "/Portfolio/static/media/chat1.e85950e197088fdf19c8.jpeg",
-    "static/media/Image2.jpg": "/Portfolio/static/media/Image2.39103732e4ec2db79214.jpg",
     "static/media/chat6.jpeg": "/Portfolio/static/media/chat6.26f97003e29becb9385d.jpeg",
     "static/media/chat3.jpeg": "/Portfolio/static/media/chat3.ca4fab5101714894f6da.jpeg",
     "static/media/chat2.jpeg": "/Portfolio/static/media/chat2.53a078c5a22377a77f02.jpeg",
@@ -26,12 +26,12 @@
     "static/media/chat4.jpeg": "/Portfolio/static/media/chat4.1df0e97c6473d4cc7d6e.jpeg",
     "static/media/contact.jpg": "/Portfolio/static/media/contact.180c79032b6231a90398.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.3fe18bfb.css.map": "/Portfolio/static/css/main.3fe18bfb.css.map",
-    "main.7f7a8575.js.map": "/Portfolio/static/js/main.7f7a8575.js.map",
+    "main.1c69b18f.css.map": "/Portfolio/static/css/main.1c69b18f.css.map",
+    "main.38066e22.js.map": "/Portfolio/static/js/main.38066e22.js.map",
     "453.d855a71b.chunk.js.map": "/Portfolio/static/js/453.d855a71b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3fe18bfb.css",
-    "static/js/main.7f7a8575.js"
+    "static/css/main.1c69b18f.css",
+    "static/js/main.38066e22.js"
   ]
 }
