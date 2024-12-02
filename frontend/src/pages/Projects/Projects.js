@@ -214,7 +214,7 @@ export default function Projects() {
                                             </h5>
                                         </div>
                                         <div className="ad-btn" id='ad3-btn'>
-                                            <a className='btn btn-primary' rel="noreferrer" target='_blank' href='https://github.com/AnuragKapoor19/Portfolio'>Source Code</a>
+                                            <a className='btn btn-primary' rel="noreferrer" target='_blank' href='https://github.com/AnuragKapoor19/NewTidings'>Source Code</a>
                                             <a className='btn btn-danger' id='live' rel="noreferrer" target='_blank' href='https://anuragkapoor19.github.io/NewTidings'>Launch App</a>
                                         </div>
                                     </div>
