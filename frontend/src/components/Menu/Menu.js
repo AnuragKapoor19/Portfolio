@@ -5,7 +5,7 @@ import { GrProjects, GrTechnology, GrWorkshop } from "react-icons/gr";
 import { Link } from 'react-scroll';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
-import img from '../../assets/images/Image1.jpg'
+import img from '../../assets/images/Side.jpg'
 
 export default function Menu({ toggle }) {
     return (

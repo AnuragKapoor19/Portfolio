@@ -19,10 +19,10 @@ export default function Experience() {
                     <VerticalTimeline lineColor='white'>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: '#BD93BD', color: 'black' }}
-                            contentArrowStyle={{ borderRight: '7px solid  #BD93BD' }}
+                            contentStyle={{ background: '#ac9a86', color: 'black' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #ac9a86' }}
                             date="1st July,2024 - 1st August,2024"
-                            iconStyle={{ background: '#BD93BD', color: '#fff' }}
+                            iconStyle={{ background: '#ac9a86', color: '#fff' }}
                             icon={<MdWork />}
                         >
                             <h3 className="vertical-timeline-element-title text-start">Full Stack Developer</h3>

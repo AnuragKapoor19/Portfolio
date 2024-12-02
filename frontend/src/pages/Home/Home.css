@@ -35,11 +35,11 @@
 .home-content h2 span{
     font-size: larger;
     font-weight: bolder;
-    color: #89023E;
+    color: #351520;
 }
 
 .home-content h1{
-    color: #89023E;
+    color: #351520;
     font-family: "Matemasie", sans-serif;
     font-weight: 400;
     font-style: normal
@@ -64,7 +64,7 @@
 }
 
 .btn-cv{
-    background-color: #89023E;
+    background-color: #351520;
     color: white;
     width: 160px;
     margin-left: 30px;
@@ -72,8 +72,8 @@
 }
 
 .btn-cv:hover{
-    border: 2px solid #89023E;
-    color: #89023E;
+    border: 2px solid #351520;
+    color: #351520;
 }
 
 /* Mobile View */

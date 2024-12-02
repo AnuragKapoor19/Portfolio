@@ -12,11 +12,11 @@
 
 .education h2{
     font-weight: bolder;
-    color: #89023E;
+    color: #351520;
 }
 
 .education-list{
-    background-color: #A0CED9;
+    background-color: #efd4b9;
     border-radius: 20px;
 }
 
@@ -35,5 +35,5 @@
 }
 
 #dark .education-list{
-    background-color: #0e103d52;
+    background-color: #351520;
 }

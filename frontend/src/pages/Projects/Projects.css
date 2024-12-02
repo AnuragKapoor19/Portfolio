@@ -14,18 +14,18 @@
 
 .projects h2{
     font-weight: bolder;
-    color: #89023E;
+    color: #351520;
 }
 
 .project-card{
     margin: 30px;
     transition: 0.2s linear;
     border: none;
-    background-color: #FFFBDB;
+    background-color: #f6e9d3df;
 }
 
 .project-card:hover{
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    box-shadow: rgba(53, 21, 32, 0.4) 5px 5px, rgba(53, 21, 32, 0.3) 10px 10px, rgba(53, 21, 32, 0.2) 15px 15px, rgba(53, 21, 32, 0.1) 20px 20px, rgba(53, 21, 32, 0.05) 25px 25px;
 }
 
 #ads{
@@ -38,8 +38,8 @@
     display: flex;
     font-size: larger;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color:#FFFBDB;
-    color: #514663;
+    background-color: #f6e9d3df;
+    color: #351520;
     font-weight: bold;
     padding: 3px;
     width: 100%;
@@ -77,7 +77,7 @@
     margin:10px 0 30px 0;
     font-size: larger;
     font-weight: bolder;
-    color: #D62246;
+    color: #351520;
     font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -139,12 +139,12 @@
 }
 
 #dark .card-image span{
-    background-color: #011936;
+    background-color: #351520;
     color: #F4FFFD;
 }
 
 #dark .project-card{
-    background-color: #011936;
+    background-color: #351520;
 }
 
 #dark .p-name{

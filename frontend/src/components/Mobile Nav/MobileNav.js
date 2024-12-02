@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 import { RiCloseLargeFill } from "react-icons/ri";
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
-import img from '../../assets/images/Image1.jpg';
+import img from '../../assets/images/Side.jpg';
 
 export default function MobileNav() {
     const [open, setopen] = useState(false)

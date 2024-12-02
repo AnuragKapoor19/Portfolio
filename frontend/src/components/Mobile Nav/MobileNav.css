@@ -8,7 +8,7 @@
 }
 
 .m-nav-header{
-    background-color: black;
+    background-color: #351520;;
     padding: 5px 10px;
 }
 
@@ -22,7 +22,7 @@
 
 .m-nav .nav-items{
     height: auto;
-    background-color: black;
+    background-color: #351520;
     width: 200px;
     padding:0.5px 10px 35px 0px;
     border-top-right-radius: 20px;

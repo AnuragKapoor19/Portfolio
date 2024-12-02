@@ -7,13 +7,13 @@
 }
 
 .exp-list{
-    background-color: #A0CED9;
+    background-color: #efd4b9;
     border-radius: 20px;
 }
 
 .exp h2{
     font-weight: bolder;
-    color: #89023E;
+    color: #351520;
     text-align: center;
 }
 
@@ -33,5 +33,5 @@
 }
 
 #dark .exp-list{
-    background-color: #0e103d52;
+    background-color: #351520;
 }

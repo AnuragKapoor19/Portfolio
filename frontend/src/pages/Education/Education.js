@@ -21,10 +21,10 @@ export default function Education() {
                     <VerticalTimeline>
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: '#BD93BD', color: 'black' }}
-                            contentArrowStyle={{ borderRight: '7px solid  #BD93BD' }}
+                            contentStyle={{ background: '#ac9a86', color: 'black' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #ac9a86' }}
                             date="2022 - present"
-                            iconStyle={{ background: '#BD93BD', color: '#fff' }}
+                            iconStyle={{ background: '#ac9a86', color: '#fff' }}
                             icon={<IoIosSchool />}
                         >
                             <h3 className="vertical-timeline-element-title">BCA</h3>
@@ -36,10 +36,10 @@ export default function Education() {
 
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: '#BD93BD', color: 'black' }}
-                            contentArrowStyle={{ borderRight: '7px solid  #BD93BD' }}
+                            contentStyle={{ background: '#ac9a86', color: 'black' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #ac9a86' }}
                             date="2021 - 2022"
-                            iconStyle={{ background: '#BD93BD', color: '#fff' }}
+                            iconStyle={{ background: '#ac9a86', color: '#fff' }}
                             icon={<BiSolidSchool />}
                         >
                             <h3 className="vertical-timeline-element-title">12th (CBSE)</h3>
@@ -52,10 +52,10 @@ export default function Education() {
 
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            contentStyle={{ background: '#BD93BD', color: 'black' }}
-                            contentArrowStyle={{ borderRight: '7px solid  #BD93BD' }}
+                            contentStyle={{ background: '#ac9a86', color: 'black' }}
+                            contentArrowStyle={{ borderRight: '7px solid  #ac9a86' }}
                             date="2019 - 2020"
-                            iconStyle={{ background: '#BD93BD', color: '#fff' }}
+                            iconStyle={{ background: '#ac9a86', color: '#fff' }}
                             icon={<FaSchool />}
                         >
                             <h3 className="vertical-timeline-element-title">10th (ICSE)</h3>

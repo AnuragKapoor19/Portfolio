@@ -21,7 +21,7 @@ hr{
 
 .techstack h2{
     font-weight: bolder;
-    color: #89023E;
+    color: #351520;
 }
 
 /* .techlist{
@@ -40,7 +40,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: cyan;
+    background-color: #e9c6a6;
     cursor: pointer;
     padding: 5px;
 }
@@ -51,7 +51,7 @@ hr{
 }
 
 .tech:hover{
-    box-shadow: rgba(137, 2, 62, 0.25) 0px 54px 55px, rgba(137, 2, 62, 0.12) 0px -12px 30px, rgba(137, 2, 62, 0.12) 0px 4px 6px, rgba(137, 2, 62, 0.17) 0px 12px 13px, rgba(137, 2, 62, 0.09) 0px -3px 5px;
+    box-shadow: rgba(53, 21, 32, 0.25) 0px 54px 55px, rgba(53, 21, 32, 0.12) 0px -12px 30px, rgba(53, 21, 32, 0.12) 0px 4px 6px, rgba(53, 21, 32, 0.17) 0px 12px 13px, rgba(53, 21, 32, 0.09) 0px -3px 5px;
 }
 
 .icon{
@@ -86,7 +86,7 @@ hr{
 }
 
 #dark .tech{
-    background-color: #12263a9c;
+    background-color: #351520;
     color: white;
 }
 
