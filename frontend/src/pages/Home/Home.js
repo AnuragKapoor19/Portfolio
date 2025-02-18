@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 import Typewriter from 'typewriter-effect'
-import Resume from '../../assets/docs/Resume.jpg'
+import Resume from '../../assets/docs/MyResume.pdf'
 import { useTheme } from '../../Context/ThemeContext'
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { FaSun } from "react-icons/fa6";
@@ -34,7 +34,7 @@ export default function Home() {
           <Fade bottom>
             <div className="home-buttons">
               <a className='btn btn-hire' href='https://api.whatsapp.com/send?phone=7986704577' rel='noreferrer' target='_blank'>Hire Me</a>
-              <a href={Resume} className='btn btn-cv' download={Resume}>My Resume</a>
+              <a href={Resume} className='btn btn-cv' download="AnuragKapoor_FullStack_Resume.pdf">My Resume</a>
             </div>
           </Fade>
         </div>
