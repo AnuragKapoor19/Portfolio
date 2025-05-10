@@ -23,12 +23,12 @@ export default function Education() {
                             className="vertical-timeline-element--work"
                             contentStyle={{ background: '#ac9a86', color: 'black' }}
                             contentArrowStyle={{ borderRight: '7px solid  #ac9a86' }}
-                            date="2022 - present"
+                            date="2022 - 2025"
                             iconStyle={{ background: '#ac9a86', color: '#fff' }}
                             icon={<IoIosSchool />}
                         >
                             <h3 className="vertical-timeline-element-title">BCA</h3>
-                            <h4 className="vertical-timeline-element-subtitle">Hindu College, Amritsar</h4>
+                            <h4 className="vertical-timeline-element-subtitle">Guru Nanak Dev University, Amritsar</h4>
                             <p>
                                 Programming Languages, Database Management, Web Development, Project Management, Team Leading, Software Engineering, Computer Networks and Security
                             </p>
